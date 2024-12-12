@@ -36,7 +36,7 @@
               "RelativeDocumentMoniker": "Controllers\\LivrosController.cs",
               "ToolTip": "C:\\Users\\grand\\OneDrive\\\u00C1rea de Trabalho\\Biblioteca\\backNew\\api\\Controllers\\LivrosController.cs*",
               "RelativeToolTip": "Controllers\\LivrosController.cs*",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAAwDUAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAQwE8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-12T10:59:02.449Z",
               "EditorCaption": ""
@@ -51,8 +51,7 @@
               "RelativeToolTip": "Models\\ModelUsuario.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T10:58:53.154Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-12T10:58:53.154Z"
             },
             {
               "$type": "Document",
@@ -62,10 +61,9 @@
               "RelativeDocumentMoniker": "Models\\ModelLivro.cs",
               "ToolTip": "C:\\Users\\grand\\OneDrive\\\u00C1rea de Trabalho\\Biblioteca\\backNew\\api\\Models\\ModelLivro.cs",
               "RelativeToolTip": "Models\\ModelLivro.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T10:58:51.188Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-12T10:58:51.188Z"
             },
             {
               "$type": "Document",
@@ -77,8 +75,7 @@
               "RelativeToolTip": "API.http",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2024-12-11T22:36:32.099Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-11T22:36:32.099Z"
             }
           ]
         }

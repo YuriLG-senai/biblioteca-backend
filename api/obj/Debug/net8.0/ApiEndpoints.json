@@ -37,22 +37,6 @@
   },
   {
     "ContainingType": "BookManagerAPI.Controllers.LivrosController",
-    "Method": "RemoverLivro",
-    "RelativePath": "api/Livros/{id}",
-    "HttpMethod": "DELETE",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "BookManagerAPI.Controllers.LivrosController",
     "Method": "DevolverLivro",
     "RelativePath": "api/Livros/{livroId}/devolver/{usuarioId}",
     "HttpMethod": "PUT",
@@ -101,22 +85,6 @@
     "IsController": true,
     "Order": 0,
     "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "BookManagerAPI.Controllers.LivrosController",
-    "Method": "RemoverLivroInteiro",
-    "RelativePath": "api/Livros/remover-livro/{id}",
-    "HttpMethod": "DELETE",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
     "ReturnTypes": []
   },
   {

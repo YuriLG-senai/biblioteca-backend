@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LIVRARIAS SENAI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0fab46a2bc840dcb9107d48f2ec391c3eff848ba")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aa2f98518206a504c3a1870e827707148b7fce15")]
 [assembly: System.Reflection.AssemblyProductAttribute("LIVRARIAS SENAI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LIVRARIAS SENAI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

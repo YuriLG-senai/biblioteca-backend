@@ -66,22 +66,7 @@ namespace BookManagerAPI.Controllers
             return Ok($"O livro {livro.Titulo} devolvido pelo usuário de ID:{usuarioId}. Quantidade emprestada: {livro.QuantidadeEmprestada}/{livro.Quantidade}");
         }
 
-        
-
-        [HttpDelete("{id}")]
-        public ActionResult RemoverLivro(int id)
-        {
-            var livro = books.FirstOrDefault(l => l.Id == id);
-            if (livro == null) return NotFound("Livro não encontrado.");
-            if (livro.Quantidade <= 0) return BadRequest("Não há unidades disponíveis para remover.");
-
-            livro.Quantidade--;
-            if (livro.Quantidade == 0) books.Remove(livro);
-
-            return Ok(books);
-        }
-
-        
+        [HttpPut("{livroId}/emprestar/{usuarioId}")]
         public ActionResult EmprestarLivro(int livroId, int usuarioId)
         {
             var livro = books.FirstOrDefault(l => l.Id == livroId);
@@ -93,15 +78,5 @@ namespace BookManagerAPI.Controllers
             livro.QuantidadeEmprestada++;
             return Ok($"Livro {livro.Titulo} emprestado para o usuário de ID:{usuarioId}. Quantidade emprestada: {livro.QuantidadeEmprestada}/{livro.Quantidade}");
         }
-        [HttpDelete("remover-livro/{id}")]
-        public ActionResult RemoverLivroInteiro(int id)
-        {
-            var livro = books.FirstOrDefault(l => l.Id == id);
-            if (livro == null) return NotFound("Livro não encontrado.");
-
-            books.Remove(livro);
-            return Ok($"O livro com ID {id} foi removido completamente.");
-        }
-        [HttpPut("{livroId}/emprestar/{usuarioId}")]
     }
 }
